@@ -70,3 +70,25 @@ ul li:before {
   ul li{
     padding-top: 5px;
   }
+
+.my-plan{
+    margin: 100px 200px;
+    text-align: center;
+    
+}
+  .plan-header{
+    color: #151414;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    margin-left: 300px;
+    
+}
+.plan-list{
+    margin-right: 80px;
+
+}
