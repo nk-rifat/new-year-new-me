@@ -85,10 +85,92 @@ ul li:before {
 }
 .plan-container{
     display: flex;
-    margin-left: 300px;
+    margin-left: 220px;
     
 }
 .plan-list{
     margin-right: 80px;
+}
+.plan-title{
+    color: #151414;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-details{
+    color: #737272;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-weight: 500;
+}
 
+.background-watch-color{
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    padding: 100px 230px 100px 230px;
+}
+.positive{
+    margin-left: 275px;
+    width: 35%;
+}
+.positive-title{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+.call-now{
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: 0px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    background-color: #151414; 
+}
+.future-container{
+    padding: 130px 0px 130px 230px;
+    width: 20%;
+}
+.future-title{
+    color: #F8F8F8;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-details{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe-container{
+    padding: 165px 230px 240px 500px;
+}
+.subscribe-title{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-weight: 600;
+}
+.email{
+    padding: 20px 158px 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: black;  
+    border-color: white;
+}
+.social-icon{
+    padding-right: 10px;
 }
